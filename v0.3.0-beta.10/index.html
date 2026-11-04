@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Roguelike de ajedrez 0.3.0-beta.10</title>
+  <meta name="description" content="Llegan piezas del xiangqi, el shogi, el janggi, Tamerlán y el ajedrez de Capablanca, y la cebra del ajedrez de fantasía. Y para no perderse entre tanta pieza, el Almanaque: una ficha de cada pieza y cada carta, con una animación de cómo se mueve.">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Roguelike de ajedrez">
+  <meta property="og:title" content="0.3.0-beta.10 · Piezas de otros juegos y el Almanaque">
+  <meta property="og:description" content="Llegan piezas del xiangqi, el shogi, el janggi, Tamerlán y el ajedrez de Capablanca, y la cebra del ajedrez de fantasía. Y para no perderse entre tanta pieza, el Almanaque: una ficha de cada pieza y cada carta, con una animación de cómo se mueve.">
+  <meta property="og:url" content="https://moisespaello.github.io/chess-roguelike-versiones/v0.3.0-beta.10/">
+  <meta property="og:image" content="https://moisespaello.github.io/chess-roguelike-versiones/v0.3.0-beta.10/img/pieza-xh.png">
+  <meta name="theme-color" content="#2a1e16">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&display=swap">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="site" href="../">Roguelike de ajedrez</a>
+  </header>
+
+  <main>
+    <section class="release">
+      <p class="meta"><span class="chip chip-prueba">0.3.0-beta.10</span> <time datetime="2026-11-04">2026-11-04</time></p>
+      <h1>Piezas de otros juegos y el Almanaque</h1>
+
+      <div class="downloads">
+        <a class="download" data-os="windows" href="https://github.com/moisesPAello/chess-roguelike-versiones/releases/download/v0.3.0-beta.10/roguelike-de-ajedrez-0.3.0-beta.10-win-x64.zip"><span>Windows</span><span class="size">40 MB</span></a>
+<a class="download" data-os="android" href="https://github.com/moisesPAello/chess-roguelike-versiones/releases/download/v0.3.0-beta.10/roguelike-de-ajedrez-0.3.0-beta.10.apk"><span>Android</span><span class="size">9 MB</span></a>
+<a class="download" data-os="linux" href="https://github.com/moisesPAello/chess-roguelike-versiones/releases/download/v0.3.0-beta.10/roguelike-de-ajedrez-0.3.0-beta.10-linux-x64.zip"><span>Linux</span><span class="size">39 MB</span></a>
+      </div>
+      <details class="help">
+        <summary>¿Windows no lo deja abrir?</summary>
+        <p>No está firmado, así que el sistema avisa la primera vez.</p>
+        <ul>
+          <li><strong>Windows:</strong> toca «Más información» y después «Ejecutar de todos modos».</li>
+          <li><strong>Android:</strong> permite instalar apps de esta fuente cuando lo pida. Cada versión se instala encima de la anterior.</li>
+        </ul>
+        <p>El zip trae un LEEME con los pasos completos.</p>
+      </details>
+    </section>
+
+    <article class="notes">
+      <p>Llegan piezas del xiangqi, el shogi, el janggi, Tamerlán y el ajedrez de Capablanca, y la cebra del ajedrez de fantasía. Y para no perderse entre tanta pieza, el <strong>Almanaque</strong>: una ficha de cada pieza y cada carta, con una animación de cómo se mueve.</p>
+<h3>Piezas nuevas</h3>
+<div class="gallery"><figure class="sprite"><img src="img/pieza-xh.png" alt="Caballo del xiangqi"><figcaption>Caballo del xiangqi</figcaption></figure> <figure class="sprite"><img src="img/pieza-jr.png" alt="Torre del shogi"><figcaption>Torre del shogi</figcaption></figure> <figure class="sprite"><img src="img/pieza-kc.png" alt="Cañón del janggi"><figcaption>Cañón del janggi</figcaption></figure> <figure class="sprite"><img src="img/pieza-tg.png" alt="Jirafa"><figcaption>Jirafa</figcaption></figure> <figure class="sprite"><img src="img/pieza-ca.png" alt="Arzobispo"><figcaption>Arzobispo</figcaption></figure> <figure class="sprite"><img src="img/pieza-fz.png" alt="Cebra"><figcaption>Cebra</figcaption></figure></div>
+<ul><li><strong>Caballo del xiangqi:</strong> salta como el caballo, pero cojea: si la casilla recta de al lado está ocupada, no puede saltar por ese lado.</li><li><strong>Torre y alfil del shogi:</strong> se mueven como la torre y el alfil. Al llegar al fondo se convierten en dragón y caballo dragón.</li><li><strong>Cañón del janggi:</strong> en línea recta, se mueve y captura solo saltando exactamente una pieza.</li><li><strong>Jirafa:</strong> un paso en diagonal y luego al menos tres casillas en línea recta, hacia afuera.</li><li><strong>Arzobispo y canciller:</strong> alfil y caballo a la vez; torre y caballo a la vez.</li><li><strong>Cebra:</strong> salta 3 casillas en una dirección y 2 en la otra, por encima de lo que haya. Su carta cambia una pieza menor por la cebra y un peón.</li><li>Además: elefante y soldado del xiangqi, elefante y soldado del janggi, y príncipe y espía de Tamerlán. Los peones del makruk y del shatranj ya están en el Almanaque, pero llegan más adelante.</li></ul>
+<p>Llegan a tu ejército por cartas de conversión en la tienda.</p>
+<h3>Mejoras nuevas</h3>
+<ul><li><strong>Paso de soldado, Mirada del general, Disparo de cañón, Zona de promoción</strong> y los saltos de elefante y de máquina de guerra.</li><li><strong>Casilla de río:</strong> se pisa, pero no se atraviesa.</li><li>Dos rivales nuevos: el <em>Señor del río</em> y el <em>Timúrida</em>.</li></ul>
+<h3>El Almanaque</h3>
+<p>Desde el inicio del juego. Cada pieza dice de qué juego viene, cómo se mueve y cómo se consigue.</p>
+<ul><li>Cada juego muestra su ejército completo. Las piezas que comparte con otro juego llevan su nombre local: en el makruk, el rey es el <em>khun</em> y la torre, la <em>rua</em>.</li><li>En la tienda y en la partida, el nombre de cada pieza en los textos es un enlace: abre una ficha flotante con su animación, y desde ahí el Almanaque, sin salir de donde estás.</li><li>Las cartas de conversión muestran cómo se mueve la pieza que recibes.</li></ul>
+<h3>Otros cambios</h3>
+<ul><li>En dificultad <strong>Aprendiz</strong> puedes deshacer tus jugadas cuantas veces quieras mientras la partida sigue.</li></ul>
+    </article>
+
+    
+  </main>
+
+  <script>
+    // Marca como principal el botón de tu sistema; los demás quedan a un lado.
+    (function () {
+      var ua = navigator.userAgent;
+      var os = /Android/i.test(ua) ? ["android"]
+        : /Windows/i.test(ua) ? ["windows"]
+        : /Linux/i.test(ua) ? ["linux"] : [];
+      var links = document.querySelectorAll(".download");
+      var any = false;
+      links.forEach(function (a) {
+        if (os.indexOf(a.dataset.os) >= 0) { a.classList.add("primary"); any = true; }
+      });
+      if (!any && links.length) links[0].classList.add("primary");
+    })();
+  </script>
+</body>
+</html>

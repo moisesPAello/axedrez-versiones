@@ -1,0 +1,166 @@
+/* Página de versiones: la misma mesa de club del juego (nogal, maple, papel). */
+
+:root {
+  --walnut: #2a1e16;
+  --walnut-edge: #3b2a1f;
+  --maple: #e9d3a6;
+  --walnut-square: #a0704a;
+  --paper: #e7ece6;
+  --rule: #8fa7b8;
+  --ink: #1e2a3a;
+  --ink-soft: #4f5d6e;
+  --brass: #c4952c;
+  --verdigris: #2f8c78;
+  --text: "Archivo", "Segoe UI", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--walnut);
+  color: var(--maple);
+  font-family: var(--text);
+  line-height: 1.5;
+}
+
+.masthead {
+  padding: 0.9rem 16px;
+  border-bottom: 1px solid var(--walnut-edge);
+}
+
+.site {
+  color: var(--maple);
+  font-size: 1.05rem;
+  font-weight: 800;
+  font-stretch: 112%;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.6rem 16px 3rem;
+}
+
+/* Cabecera de la versión */
+
+.meta { display: flex; align-items: center; gap: 0.6rem; margin: 0; color: rgba(233, 211, 166, 0.7); font-size: 0.9rem; }
+
+.chip {
+  padding: 0.1rem 0.5rem;
+  border-radius: 3px;
+  background: rgba(233, 211, 166, 0.14);
+  color: var(--maple);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.chip-estable { background: var(--verdigris); color: #fff; }
+
+h1 {
+  margin: 0.35rem 0 1.1rem;
+  font-size: clamp(1.8rem, 6vw, 2.6rem);
+  font-weight: 800;
+  font-stretch: 115%;
+  line-height: 1.1;
+}
+
+/* Descargas: el botón de tu sistema manda, los demás van chicos */
+
+.downloads { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+.download {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid rgba(233, 211, 166, 0.35);
+  border-radius: 4px;
+  color: var(--maple);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+.download:hover { border-color: var(--maple); }
+
+.download.primary {
+  order: -1;
+  flex-basis: 100%;
+  justify-content: center;
+  padding: 0.85rem 1rem;
+  border-color: var(--brass);
+  background: var(--brass);
+  color: var(--walnut);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.download.primary span:first-child::before { content: "Descargar para "; }
+.download.primary:hover { filter: brightness(1.08); }
+
+.size { opacity: 0.7; font-size: 0.85em; font-weight: 500; }
+
+.help { margin-top: 0.8rem; color: rgba(233, 211, 166, 0.8); font-size: 0.9rem; }
+.help summary { cursor: pointer; }
+.help ul { padding-left: 1.2rem; }
+
+/* Las notas: una hoja de papel sobre la mesa */
+
+.notes {
+  margin-top: 1.8rem;
+  padding: 1.4rem clamp(1rem, 4vw, 2rem) 1.6rem;
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 2px 0 var(--walnut-edge), 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.notes > :first-child { margin-top: 0; }
+
+.notes h3 {
+  margin: 1.6rem 0 0.4rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 1.15rem;
+  font-weight: 800;
+  font-stretch: 110%;
+}
+
+.notes h4 { margin: 1.2rem 0 0.3rem; font-size: 1rem; }
+.notes p, .notes ul { margin: 0.5rem 0; }
+.notes ul { padding-left: 1.2rem; }
+.notes li + li { margin-top: 0.25rem; }
+.notes code { padding: 0 0.25rem; border-radius: 2px; background: rgba(30, 42, 58, 0.08); }
+.notes a { color: #2d5bb4; }
+
+.gallery { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 0.9rem 0; }
+
+figure { margin: 0; }
+figcaption { margin-top: 0.3rem; color: var(--ink-soft); font-size: 0.85rem; }
+
+/* Sprites: a escala entera y sin suavizar, sobre una casilla de maple */
+.sprite img {
+  display: block;
+  width: 136px;
+  height: auto;
+  padding: 10px 14px;
+  border-radius: 3px;
+  background: var(--maple);
+  image-rendering: pixelated;
+}
+
+.sprite figcaption { max-width: 136px; }
+
+.shot { flex: 1 1 100%; }
+.shot img { display: block; max-width: 100%; height: auto; border-radius: 2px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); }
+
+/* Versiones anteriores */
+
+main > h2 { margin: 2.2rem 0 0.5rem; font-size: 1rem; color: rgba(233, 211, 166, 0.75); }
+.others { margin: 0; padding: 0; list-style: none; }
+.others li { padding: 0.35rem 0; border-bottom: 1px solid var(--walnut-edge); }
+.others a { color: var(--maple); font-weight: 700; font-variant-numeric: tabular-nums; }
+.others span { margin-left: 0.4rem; color: rgba(233, 211, 166, 0.65); }
