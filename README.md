@@ -5,17 +5,18 @@ mejoras en una tienda entre partidas y juegas torneos contra rivales con estilos
 distintos. Además de las piezas clásicas, hay piezas de otros juegos de tablero
 (xiangqi, shogi, janggi, Tamerlán, damas) que se combinan en la misma partida.
 
-## Última versión: 0.3.0-beta.10 · Piezas de otros juegos y el Almanaque
+## Última versión: 0.3.0-beta.11 · Clases de pieza
 
-Llegan piezas del xiangqi, el shogi, el janggi, Tamerlán y el ajedrez de Capablanca, y la cebra del ajedrez de fantasía. Y para no perderse entre tanta pieza, el Almanaque: una ficha de cada pieza y cada carta, con una animación de cómo se mueve.
+Con tantas piezas de otros juegos, las cartas de conversión dejaban de servir: pedían un caballo o un alfil justo cuando tu ejército ya no los tenía. Ahora cada pieza tiene una clase, y las cartas piden una clase en vez de una pieza.
 
-**[Descargar](https://github.com/moisesPAello/chess-roguelike-versiones/releases/tag/v0.3.0-beta.10)** · [notas completas](v0.3.0-beta.10/)
+**[Descargar](https://github.com/moisesPAello/chess-roguelike-versiones/releases/tag/v0.3.0-beta.11)** · [notas completas](v0.3.0-beta.11/)
 
 En la release, descarga el `.apk` en Android o el `.zip` de Windows o Linux. Los
 «Source code» que agrega GitHub son las notas de este repo, no el juego.
 
 ## Versiones
 
+- [0.3.0-beta.11 · Clases de pieza](v0.3.0-beta.11/) (2026-11-04)
 - [0.3.0-beta.10 · Piezas de otros juegos y el Almanaque](v0.3.0-beta.10/) (2026-11-04)
 
 ## Qué hay aquí y qué no
