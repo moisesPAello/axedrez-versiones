@@ -1,6 +1,6 @@
 # 0.3.0-beta.10 · Piezas de otros juegos y el Almanaque
 
-*2026-11-04* · **[Descargar](https://github.com/moisesPAello/chess-roguelike-versiones/releases/tag/v0.3.0-beta.10)**
+*2026-11-04* · **[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.10)**
 
 Llegan piezas del xiangqi, el shogi, el janggi, Tamerlán y el ajedrez de Capablanca, y la cebra del ajedrez de fantasía. Y para no perderse entre tanta pieza, el **Almanaque**: una ficha de cada pieza y cada carta, con una animación de cómo se mueve.
 

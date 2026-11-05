@@ -1,6 +1,6 @@
 # 0.3.0-beta.11 · Clases de pieza
 
-*2026-11-04* · **[Descargar](https://github.com/moisesPAello/chess-roguelike-versiones/releases/tag/v0.3.0-beta.11)**
+*2026-11-04* · **[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.11)**
 
 Con tantas piezas de otros juegos, las cartas de conversión dejaban de servir: pedían un caballo o un alfil justo cuando tu ejército ya no los tenía. Ahora cada pieza tiene una **clase**, y las cartas piden una clase en vez de una pieza.
 
