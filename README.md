@@ -5,17 +5,18 @@ mejoras en una tienda entre partidas y juegas torneos contra rivales con estilos
 distintos. Además de las piezas clásicas, hay piezas de otros juegos de tablero
 (xiangqi, shogi, janggi, Tamerlán, damas) que se combinan en la misma partida.
 
-## Última versión: 0.3.0-beta.13 · Axedrez: aprende a jugar
+## Última versión: 0.3.0-beta.14 · Axedrez: se actualiza solo
 
-Esta versión es para quien nunca jugó ajedrez: un tutorial que te enseña a mover las piezas, las reglas especiales en el Almanaque y cada pieza explicada al tocarla. Además trae el Cochinito, un inicio armado alrededor de tu run, un resumen al terminar cada run y rivales que llegan con un número a la vista.
+Desde esta versión, el juego te avisa cuando sale una nueva y se actualiza con un toque: ya no hace falta bajarla de Discord. Esta la instalas a mano una última vez. Además trae el Taller, los sobres de piezas, los secretos del Almanaque y un campeón que no se pierde en los cambios.
 
-**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.13)** · [notas completas](v0.3.0-beta.13/)
+**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.14)** · [notas completas](v0.3.0-beta.14/)
 
 En la release, descarga el `.apk` en Android o el `.zip` de Windows o Linux. Los
 «Source code» que agrega GitHub son las notas de este repo, no el juego.
 
 ## Versiones
 
+- [0.3.0-beta.14 · Axedrez: se actualiza solo](v0.3.0-beta.14/) (2026-11-10)
 - [0.3.0-beta.13 · Axedrez: aprende a jugar](v0.3.0-beta.13/) (2026-11-05)
 - [0.3.0-beta.12 · Axedrez: vender piezas y tus runs con tu nombre](v0.3.0-beta.12/) (2026-11-05)
 - [0.3.0-beta.11 · Clases de pieza](v0.3.0-beta.11/) (2026-11-04)
