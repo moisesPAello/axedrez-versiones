@@ -5,17 +5,18 @@ mejoras en una tienda entre partidas y juegas torneos contra rivales con estilos
 distintos. Además de las piezas clásicas, hay piezas de otros juegos de tablero
 (xiangqi, shogi, janggi, Tamerlán, damas) que se combinan en la misma partida.
 
-## Última versión: 0.3.0-beta.14 · Axedrez: se actualiza solo
+## Última versión: 0.3.0-beta.15 · Axedrez: el Duelo
 
-Desde esta versión, el juego te avisa cuando sale una nueva y se actualiza con un toque: ya no hace falta bajarla de Discord. Esta la instalas a mano una última vez. Además trae el Taller, los sobres de piezas, los secretos del Almanaque y un campeón que no se pierde en los cambios.
+Ahora puedes jugar contra un amigo. El Duelo es una run corta entre dos, cada uno en su teléfono o su computadora y en la misma Wi-Fi: antes de cada ronda compran en la misma tienda, después juegan entre ellos, y gana quien suma más. Los dos necesitan esta versión.
 
-**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.14)** · [notas completas](v0.3.0-beta.14/)
+**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.15)** · [notas completas](v0.3.0-beta.15/)
 
 En la release, descarga el `.apk` en Android o el `.zip` de Windows o Linux. Los
 «Source code» que agrega GitHub son las notas de este repo, no el juego.
 
 ## Versiones
 
+- [0.3.0-beta.15 · Axedrez: el Duelo](v0.3.0-beta.15/) (2026-11-10)
 - [0.3.0-beta.14 · Axedrez: se actualiza solo](v0.3.0-beta.14/) (2026-11-10)
 - [0.3.0-beta.13 · Axedrez: aprende a jugar](v0.3.0-beta.13/) (2026-11-05)
 - [0.3.0-beta.12 · Axedrez: vender piezas y tus runs con tu nombre](v0.3.0-beta.12/) (2026-11-05)
