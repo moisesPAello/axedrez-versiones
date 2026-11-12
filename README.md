@@ -5,17 +5,18 @@ mejoras en una tienda entre partidas y juegas torneos contra rivales con estilos
 distintos. Además de las piezas clásicas, hay piezas de otros juegos de tablero
 (xiangqi, shogi, janggi, Tamerlán, damas) que se combinan en la misma partida.
 
-## Última versión: 0.3.0-beta.17 · Axedrez: el Versus
+## Última versión: 0.3.0-beta.18 · Trofeos y la tienda renovada
 
-Ahora tu run puede ser contra un amigo. En el Versus cada uno juega su propia run, en su teléfono o su computadora y en la misma Wi-Fi. Las rondas 1 y 2 de cada torneo son contra la máquina, cada quien a su ritmo, y en la ronda 3, en vez del boss, juegan entre ustedes con el ejército que armó cada uno. Así se ve quién armó mejor su run. Los dos necesitan esta versión.
+Ganarle a un boss ahora deja un trofeo, una ventaja que llevas hasta el siguiente. La tienda también cambia: el taller trae a veces cambios raros y legendarios, una pieza ya no pierde sus mejoras al cambiarla, el Escudo viene según la clase de la pieza y los comodines pasan a llamarse estandartes. Además cambia dónde entran las piezas nuevas de tu ejército. Las runs empezadas antes siguen sin trofeos y con su tienda de siempre: para verlo todo, empieza una nueva.
 
-**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.17)** · [notas completas](v0.3.0-beta.17/)
+**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.18)** · [notas completas](v0.3.0-beta.18/)
 
 En la release, descarga el `.apk` en Android o el `.zip` de Windows o Linux. Los
 «Source code» que agrega GitHub son las notas de este repo, no el juego.
 
 ## Versiones
 
+- [0.3.0-beta.18 · Trofeos y la tienda renovada](v0.3.0-beta.18/) (2026-11-12)
 - [0.3.0-beta.17 · Axedrez: el Versus](v0.3.0-beta.17/) (2026-11-11)
 - [0.3.0-beta.16 · Axedrez: busca una versión nueva cuando quieras](v0.3.0-beta.16/) (2026-11-10)
 - [0.3.0-beta.15 · Axedrez: el Duelo](v0.3.0-beta.15/) (2026-11-10)
