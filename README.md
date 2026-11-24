@@ -5,17 +5,18 @@ mejoras en una tienda entre partidas y juegas torneos contra rivales con estilos
 distintos. Además de las piezas clásicas, hay piezas de otros juegos de tablero
 (xiangqi, shogi, janggi, Tamerlán, damas) que se combinan en la misma partida.
 
-## Última versión: 0.3.0-beta.21 · Todo nuevo por dentro
+## Última versión: 0.3.0-beta.22 · Mejoras de captura de las variantes
 
-Una versión de pantallas: la tienda se parece a la de Balatro, el torneo muestra sus rondas, cada pieza dice qué mejoras tiene y la partida de escritorio se centra como en chess.com. Llegan seis mejoras de movimiento nuevas, cinco estandartes de regla de otros juegos, once cambios de dos peones por una pieza ligera, la conversión Damas y la venta de estandartes. Las runs empezadas antes siguen como estaban: para ver todo, empieza una nueva.
+Llegan cuatro mejoras de captura sacadas de variantes del ajedrez: piezas que renacen, que cambian de bando o que no se dejan comer. Y un pulido de pantallas: la tienda se ordena de otra forma en escritorio, cada rival muestra su Elo, el boss se ve entero y el ahogado se explica con un tablero. Las runs empezadas antes siguen como estaban: para ver las mejoras nuevas, empieza una nueva.
 
-**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.21)** · [notas completas](v0.3.0-beta.21/)
+**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.22)** · [notas completas](v0.3.0-beta.22/)
 
 En la release, descarga el `.apk` en Android o el `.zip` de Windows o Linux. Los
 «Source code» que agrega GitHub son las notas de este repo, no el juego.
 
 ## Versiones
 
+- [0.3.0-beta.22 · Mejoras de captura de las variantes](v0.3.0-beta.22/) (2026-11-24)
 - [0.3.0-beta.21 · Todo nuevo por dentro](v0.3.0-beta.21/) (2026-11-19)
 - [0.3.0-beta.20 · Ranuras y mejoras nuevas](v0.3.0-beta.20/) (2026-11-14)
 - [0.3.0-beta.19 · Arreglos del almanaque y del escudo](v0.3.0-beta.19/) (2026-11-12)
