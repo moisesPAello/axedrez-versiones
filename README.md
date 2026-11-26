@@ -5,17 +5,18 @@ mejoras en una tienda entre partidas y juegas torneos contra rivales con estilos
 distintos. Además de las piezas clásicas, hay piezas de otros juegos de tablero
 (xiangqi, shogi, janggi, Tamerlán, damas) que se combinan en la misma partida.
 
-## Última versión: 0.3.0-beta.22 · Mejoras de captura de las variantes
+## Última versión: 0.3.0-beta.23 · Prisioneros y embajada
 
-Llegan cuatro mejoras de captura sacadas de variantes del ajedrez: piezas que renacen, que cambian de bando o que no se dejan comer. Y un pulido de pantallas: la tienda se ordena de otra forma en escritorio, cada rival muestra su Elo, el boss se ve entero y el ahogado se explica con un tablero. Las runs empezadas antes siguen como estaban: para ver las mejoras nuevas, empieza una nueva.
+La tienda cambia de fondo: ahora puedes quedarte con una pieza que le capturaste al rival, el taller pasa a ser la embajada y tiene las piezas de todos los juegos, y los sobres se van. También cambian los temas de las piezas y el nombre de varios estandartes. Las runs empezadas antes ven los nombres nuevos, pero los prisioneros, la embajada y el precio nuevo de Refrescar llegan con una run nueva.
 
-**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.22)** · [notas completas](v0.3.0-beta.22/)
+**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.23)** · [notas completas](v0.3.0-beta.23/)
 
 En la release, descarga el `.apk` en Android o el `.zip` de Windows o Linux. Los
 «Source code» que agrega GitHub son las notas de este repo, no el juego.
 
 ## Versiones
 
+- [0.3.0-beta.23 · Prisioneros y embajada](v0.3.0-beta.23/) (2026-11-25)
 - [0.3.0-beta.22 · Mejoras de captura de las variantes](v0.3.0-beta.22/) (2026-11-24)
 - [0.3.0-beta.21 · Todo nuevo por dentro](v0.3.0-beta.21/) (2026-11-19)
 - [0.3.0-beta.20 · Ranuras y mejoras nuevas](v0.3.0-beta.20/) (2026-11-14)
