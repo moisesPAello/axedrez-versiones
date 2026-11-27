@@ -5,17 +5,18 @@ mejoras en una tienda entre partidas y juegas torneos contra rivales con estilos
 distintos. Además de las piezas clásicas, hay piezas de otros juegos de tablero
 (xiangqi, shogi, janggi, Tamerlán, damas) que se combinan en la misma partida.
 
-## Última versión: 0.3.0-beta.23 · Prisioneros y embajada
+## Última versión: 0.3.0-beta.24 · La planilla en palabras
 
-La tienda cambia de fondo: ahora puedes quedarte con una pieza que le capturaste al rival, el taller pasa a ser la embajada y tiene las piezas de todos los juegos, y los sobres se van. También cambian los temas de las piezas y el nombre de varios estandartes. Las runs empezadas antes ven los nombres nuevos, pero los prisioneros, la embajada y el precio nuevo de Refrescar llegan con una run nueva.
+La planilla deja la notación de ajedrez y escribe cada jugada con el dibujo de la pieza y en palabras, para que se lea sin saber notación. Las piezas del shogi coronan ahora como en el shogi: tú eliges. Y el Rey despojado gana la jugada de respuesta que tenía en el shatranj. Tus runs siguen tal como estaban.
 
-**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.23)** · [notas completas](v0.3.0-beta.23/)
+**[Descargar](https://github.com/moisesPAello/axedrez-versiones/releases/tag/v0.3.0-beta.24)** · [notas completas](v0.3.0-beta.24/)
 
 En la release, descarga el `.apk` en Android o el `.zip` de Windows o Linux. Los
 «Source code» que agrega GitHub son las notas de este repo, no el juego.
 
 ## Versiones
 
+- [0.3.0-beta.24 · La planilla en palabras](v0.3.0-beta.24/) (2026-11-27)
 - [0.3.0-beta.23 · Prisioneros y embajada](v0.3.0-beta.23/) (2026-11-25)
 - [0.3.0-beta.22 · Mejoras de captura de las variantes](v0.3.0-beta.22/) (2026-11-24)
 - [0.3.0-beta.21 · Todo nuevo por dentro](v0.3.0-beta.21/) (2026-11-19)
